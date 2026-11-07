@@ -8,7 +8,7 @@ font-family: "Harrington";
 }
 
 .hero-image {
-  background-image: url("file:///Users/alfie/My%20Files/My%20stuff/My%20Website/My%20christmas%20list/IMG_1508.jpg"); /* The image used */
+  background-image: url("IMG_1508.jpg"); /* The image used */
   background-color: #F9EDC5; /* Used if the image is unavailable */
   height: 400px; /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -55,7 +55,7 @@ width: 100%;
   padding: 0 20px;
   align: right;
   border: 5px outset red;
-  background-image: url("file:///Users/alfie/My%20Files/My%20stuff/My%20Website/My%20christmas%20list/Snowflake.png");
+  background-image: url("Snowflake.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
