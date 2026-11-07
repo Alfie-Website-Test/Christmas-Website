@@ -1,0 +1,64 @@
+
+body { 
+background-color: #F9EDC5; 
+} 
+
+p {
+font-family: "Harrington";
+}
+
+.hero-image {
+  background-image: url("file:///Users/alfie/My%20Files/My%20stuff/My%20Website/My%20christmas%20list/IMG_1508.jpg"); /* The image used */
+  background-color: #F9EDC5; /* Used if the image is unavailable */
+  height: 400px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+position: relative;
+
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: maroon;
+  font-size: 32px;
+  font-family: "Staatliches";
+width: 100%;
+
+}
+.header {
+  position: sticky;
+  top: 0;
+  padding: 10px 16px;
+  background: repeating-linear-gradient(
+    45deg,
+    #8B0000,
+    #8B0000 20px,
+    #165B33 20px,
+    #165B33 40px
+  );
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+.container div {
+  padding: 0 20px;
+  align: right;
+  border: 5px outset red;
+  background-image: url("file:///Users/alfie/My%20Files/My%20stuff/My%20Website/My%20christmas%20list/Snowflake.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: black;
+}
