@@ -3,6 +3,13 @@ body {
 background-color: #F9EDC5;
 margin: 0;
 padding: 0;
+  background-image: url("snow-overlay-16x9.gif");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+  height: 100vh;
+  margin: 0;
+
 } 
 
 p {
