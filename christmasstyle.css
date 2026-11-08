@@ -12,7 +12,7 @@ font-family: "Harrington";
 .hero-image {
   background-image: url("IMG_1508.JPG"); /* The image used */
   background-color: #F9EDC5; /* Used if the image is unavailable */
-  height: 400px; /* You must set a specified height */
+  height: 250px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -54,13 +54,15 @@ width: 100%;
 }
 
 .container div {
+  margin-top: 10px;
   padding: 0 20px;
-  align: right;
   border: 5px outset red;
-  background-image: url("Snowflake.png");
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), 
+    url("Snowflake.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
   color: black;
+  font-weight: bold;
 }
