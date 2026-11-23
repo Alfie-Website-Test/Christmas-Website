@@ -74,3 +74,24 @@ width: 100%;
   color: black;
   font-weight: bold;
 }
+
+.slideshow {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
