@@ -1,3 +1,4 @@
+
 const images = [
     "AHbook.png",
     "KodakFilm.png",
@@ -22,11 +23,18 @@ function showImage() {
 function nextImage() {
     currentImage = (currentImage + 1) % images.length;
     showImage();
+    resetTimer();
 }
 
 function previousImage() {
     currentImage = (currentImage - 1 + images.length) % images.length;
     showImage();
+    resetTimer();
+}
+
+function resetTimer() {
+    clearInterval(timer);
+    timer = setInterval(nextImage, 3000);
 }
 
 document.getElementById("next").addEventListener("click", nextImage);
