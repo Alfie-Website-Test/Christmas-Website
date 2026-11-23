@@ -3,12 +3,12 @@
 const images = [
     "AHBook.png",
     "KodakFilm.png",
-    "Pyjamas.png"
+    "Pyjamas.png",
     "RecordCleaningKit.png",
     "Job-Offer.png",
     "Negative-Sleeves.png",
-    "Binder.png"
-    "MarvelSkyline.png"
+    "Binder.png",
+    "MarvelSkyline.png",
     "world_peace.png"
 ];
 
