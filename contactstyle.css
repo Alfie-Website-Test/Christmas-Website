@@ -74,7 +74,6 @@ body {
 /* Main container */
 
 .contact-container {
-    background-color: rgba(255,255,255,0.85);
     width: 65%;
     max-width: 700px;
     margin: 30px auto;
