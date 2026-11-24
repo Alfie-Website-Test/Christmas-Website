@@ -18,7 +18,20 @@ let timer;
 const slide = document.getElementById("slide");
 
 function showImage() {
-    slide.src = images[currentImage];
+    slide.classList.add("fade-out");
+
+    setTimeout(() => {
+        slide.src = images[currentImage];
+
+        slide.onload = () => {
+            slide.classList.remove("fade-out");
+        };
+
+        // Handle images that are already cached
+        if (slide.complete) {
+            slide.classList.remove("fade-out");
+        }
+    }, 500);
 }
 
 function nextImage() {
