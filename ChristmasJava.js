@@ -4,7 +4,7 @@ const images = [
     "KodakFilm.png",
     "Pyjamas.png",
     "RecordCleaningKit.png",
-    "Job-Offer.png",
+    "Job-offer.png",
     "Negative-Sleeves.png",
     "Binder.png",
     "MarvelSkyline.png",
