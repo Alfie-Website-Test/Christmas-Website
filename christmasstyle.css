@@ -1,6 +1,6 @@
 
 body { 
-background-color: #1B4332;
+background-color: #F9EDC5;
 margin: 0;
 padding: 0;
   background-image: url("snow-overlay-16x9.gif");
@@ -76,6 +76,7 @@ width: 100%;
 }
 
 .container a {
+    display: inline-block;
     color: black;
     text-decoration: none;
     font-weight: bold;
