@@ -8,7 +8,8 @@ const images = [
     "Negative-Sleeves.png",
     "Binder.png",
     "MarvelSkyline.png",
-    "world_peace.png"
+    "world_peace.png",
+    "Sublimation.png"
 ];
 
 let currentImage = 0;
