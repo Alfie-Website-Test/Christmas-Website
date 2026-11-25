@@ -140,6 +140,136 @@ footer {
     margin-top: 40px;
 }
 
+/* CHRISTMAS WISHLIST */
+
+.wishlist {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.wishlist h2 {
+    font-family: "Harrington";
+    font-size: 36px;
+    color: #8B0000;
+}
+
+.wishlist-intro {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* GIFT GRID */
+
+.gift-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* INDIVIDUAL GIFT CARDS */
+
+.gift-card {
+    background-color: #fffaf0;
+    border: 4px solid #165B33;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gift-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.gift-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.gift-card h3 {
+    font-family: "Harrington";
+    font-size: 24px;
+    color: #8B0000;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #165B33;
+}
+
+/* PRIORITY LABELS */
+
+.priority {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.must-have {
+    background-color: #8B0000;
+    color: white;
+}
+
+.would-love {
+    background-color: #165B33;
+    color: white;
+}
+
+.optional {
+    background-color: #D4A017;
+    color: black;
+}
+
+.description {
+    font-size: 16px;
+    min-height: 40px;
+}
+
+/* GIFT BUTTON */
+
+.gift-link {
+    display: inline-block;
+    background-color: #8B0000;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.gift-link:hover {
+    background-color: #165B33;
+}
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 750px) {
+    .gift-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .gift-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .wishlist h2 {
+        font-size: 28px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .slideshow {
         width: 85%;
