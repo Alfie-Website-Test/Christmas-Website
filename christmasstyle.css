@@ -97,7 +97,7 @@ width: 100%;
 }
 .slideshow {
     width: 450px;
-    margin: 40px auto;
+    margin: 40px auto 10px;
     padding: 15px;
     border: 5px solid #8B0000;
     border-radius: 15px;
@@ -151,7 +151,7 @@ footer {
 
 .wishlist {
     max-width: 1100px;
-    margin: 50px auto;
+    margin: 10px auto 50px;
     padding: 20px;
     text-align: center;
 }
