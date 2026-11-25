@@ -1,7 +1,7 @@
 body {
     background-color: #F9EDC5;
     background-image: url("snow-overlay-16x9.gif");
-    background-size: cover;
+    background-size: auto;
     background-repeat: repeat;
     background-position: center;
     margin: 0;
